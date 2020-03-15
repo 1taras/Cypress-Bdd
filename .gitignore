@@ -3,6 +3,10 @@
 /tmp
 /out-tsc
 
+#screenshots & videos
+/screenshots
+/videos
+
 # dependencies
 /node_modules
 
