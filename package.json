@@ -1,0 +1,33 @@
+{
+  "name": "cypress-cucumber",
+  "version": "1.0.0",
+  "description": "Test automation framework Cypress+Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1taras/Cypress-Bdd.git"
+  },
+  "keywords": [
+    "Cypress",
+    "BDD",
+    "Cucumber"
+  ],
+  "author": "taras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1taras/Cypress-Bdd/issues"
+  },
+  "homepage": "https://github.com/1taras/Cypress-Bdd#readme",
+  "devDependencies": {
+    "cypress": "^4.1.0",
+    "cypress-cucumber-preprocessor": "^2.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions" : true
+  }
+}
